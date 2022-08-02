@@ -18,7 +18,7 @@ and then paste the following
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/oneplus/lemonadep" name="ApexLegend007/twrp_device_oneplus_lemonadep" remote="github" revision="android-12.1-oplus" />
+  <project path="device/oneplus/lemonadep" name="EduardoA3677/twrp_device_oneplus_lemonadep" remote="github" revision="a12" />
 </manifest>
 ```
 You might need to pick few patches from gerrit.twrp.me to get some stuff working.
