@@ -42,7 +42,7 @@ To test it:
 fastboot boot out/target/product/lemonadep/boot.img 
 
 # Since 9R has a separate recovery partition, you can flash the recovery with
-fastboot flash recovery recovery.img
+fastboot flash boot boot.img
 ```
 
 Kernel: https://github.com/LineageOS/android_kernel_oneplus_sm8350
