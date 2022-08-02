@@ -1,4 +1,4 @@
-# Device Tree for 9R (lemonadep) for TWRP
+# Device Tree for 9 Pro (lemonadep) for TWRP
 
 ## Setup repo tool
 Setup repo tool from here https://source.android.com/setup/develop#installing-repo
@@ -32,20 +32,20 @@ repo sync -j$(nproc --all)
 To build, execute this command:
 
 ```
-. build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; export LC_ALL=C; lunch twrp_lemonadep-eng; make -j$(nproc --all) adbd recoveryimage
+. build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; export LC_ALL=C; lunch twrp_lemonadep-eng; make -j$(nproc --all) adbd bootimage
 ```
 
 To test it:
 
 ```
 # To temporarily boot it
-fastboot boot out/target/product/lemonadep/recovery.img 
+fastboot boot out/target/product/lemonadep/boot.img 
 
 # Since 9R has a separate recovery partition, you can flash the recovery with
 fastboot flash recovery recovery.img
 ```
 
-Kernel: https://github.com/LineageOS/android_kernel_oneplus_sm8250
+Kernel: https://github.com/LineageOS/android_kernel_oneplus_sm8350
 
 ##### Credits
 - The-Incognito For Recovery Trees of Oneplus 8T
