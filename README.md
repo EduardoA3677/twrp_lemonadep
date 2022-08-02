@@ -48,6 +48,7 @@ fastboot flash recovery recovery.img
 Kernel: https://github.com/LineageOS/android_kernel_oneplus_sm8350
 
 ##### Credits
+- ApexLegend007 For Recovery Trees of Oneplus 9r
 - The-Incognito For Recovery Trees of Oneplus 8T
 - YumeMichi For Implementing Erofs and Other Misc
 - bigbiff for decryption
