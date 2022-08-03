@@ -28,7 +28,10 @@ Sync the sources with
 ```
 repo sync -j$(nproc --all)
 ```
-
+apply the patches as indicated by the minimum manifest
+```
+repopick 5405 5540
+```
 To build, execute this command:
 
 ```
