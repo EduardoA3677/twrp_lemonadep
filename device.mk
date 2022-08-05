@@ -27,12 +27,12 @@ AB_OTA_UPDATER := true
 # more partitions to this list for the bootloader and radio.
 AB_OTA_PARTITIONS += \
     boot \
-	dtbo \
+    dtbo \
     system \
     system_ext \
     vendor \
     vbmeta \
-	vbmeta_system
+    vbmeta_system
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
